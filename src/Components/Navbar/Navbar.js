@@ -7,13 +7,21 @@ const Navbar = () => {
     return (
         <div>
             <nav className=''>
-                <div className="container d-flex justify-content-between">
-                    <input type="text" name="" id="" className='search-bar' placeholder="Search" />
+                <div className="container mt-2">
+                    <div className="d-flex justify-content-between">
 
-                    <div className='d-flex align-items-center'>
-                        <FaCalendarAlt className='me-4'></FaCalendarAlt>
-                        <FaBell className='me-4'></FaBell>
-                        <img src={user} className="user-image rounded-5 me-4" alt="" />
+                   
+                            <input type="text" name=""  id="" className ='my-2 ms-lg-5 ms-md-2 search-bar w-50' placeholder="Search" />
+
+   
+
+  
+                            <div className='d-md-flex align-items-center'>
+                                <FaCalendarAlt className='me-4'></FaCalendarAlt>
+                                <FaBell className='me-4'></FaBell>
+                                <img src={user} className="user-image rounded-5 me-4" alt="" />
+                            </div>
+         
                     </div>
                 </div>
             </nav>
