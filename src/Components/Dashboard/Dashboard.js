@@ -8,7 +8,7 @@ const Dashboard = () => {
         <div className='bodycolor container px-5'>
             <h1 className='fw-bolder dashboard-text py-5'>Dashboard</h1>
 
-            <p className='popins'>Company Status</p>
+            <p className='popins fw-bolder'>Company Status</p>
 
             <div className='container mb-5'>
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 justify-content-start gx-3 gy-2">
@@ -92,9 +92,16 @@ const Dashboard = () => {
                         </div>
                     </div>
                 </div>
-
+            </div>
+{/* --------------------------------------------------------------------------- */}
+            <div className="container">
                 <div className="row row-cols-2 row-cols-md-2">
-
+                    <div className="col">
+                        <p className='popins'>Expense Report</p>
+                    </div>
+                    <div className="col">
+                        <p className='popins'>Task Summary</p>
+                    </div>
                 </div>
             </div>
         </div>

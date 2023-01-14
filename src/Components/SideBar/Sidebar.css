@@ -3,8 +3,21 @@
 .sidebar-body{
     background-color: #1E2772;
     color: white;
-    height: 100vh;
+    /* height: 100vh; */
+    /* height: auto; */
 }
+
+.sidebar-body li{
+    list-style-type: none;
+}
+
+.sidebar-body li:hover{
+    background-color: #484F8B;
+    border-left: 2px solid white;
+    border-height: 2px;
+    border-radius: 5px;
+}
+
 .logo{
     font-family: 'Lato', sans-serif;
     padding-top: 42px;
