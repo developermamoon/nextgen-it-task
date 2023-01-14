@@ -1,0 +1,11 @@
+.search-bar{
+    margin: 24px 0;
+    width: 500px;
+    padding: 0 14px;
+    margin-left: 80px;
+}
+
+.user-image{
+    width: 35px;
+    height: 35px;
+}
