@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+
+.sidebar-body{
+    background-color: #1E2772;
+    color: white;
+    height: 100vh;
+}
+.logo{
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    margin-top: 42px;
+}
