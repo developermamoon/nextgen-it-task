@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+
+
+.dashboard-text{
+    color: #102048;
+    background-color: #F4F4F4;
+    font-family: 'Poppins', sans-serif;
+}
+
+.viewall-btn {
+    background-color: #1E2772 !important;
+    color: white;
+}
+.bodycolor{
+    background-color: #F4F4F4;
+    /* height: 100vh; */
+}
+
+.popins{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.headline{
+    font-size: 15px;
+}

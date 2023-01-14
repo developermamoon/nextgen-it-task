@@ -3,7 +3,7 @@ import './Sidebar.css'
 
 const SideBar = () => {
     return (
-        <div>
+        <div className='sidebar-body'>
             <h3 className='logo fw-bold text-center'>Place A Logo Here</h3>
         </div>
     );

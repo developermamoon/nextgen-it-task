@@ -5,16 +5,13 @@ import user from '../../images/user.jpg'
 
 const Navbar = () => {
     return (
-        <div>
+        <div className='my-3'>
             <nav className=''>
                 <div className="container mt-2">
                     <div className="d-flex justify-content-between">
 
                    
                             <input type="text" name=""  id="" className ='my-2 ms-lg-5 ms-md-2 search-bar w-50' placeholder="Search" />
-
-   
-
   
                             <div className='d-md-flex align-items-center'>
                                 <FaCalendarAlt className='me-4'></FaCalendarAlt>
